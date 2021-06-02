@@ -48,4 +48,16 @@
     <string name="lorem_ipsum">"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "</string>
     <string name="why">Why?</string>
 
+    <!-- Fruit Properties -->
+    <string name="safetoeat">safe for consumption by diabetics</string>
+    <string name="notsafetoeat">not safe for diabetics</string>
+    <string name="apple">although it tastes sweet, the nutritional content of apples can control blood sugar levels</string>
+    <string name="banana">bananas should not be consumed because they contain carbohydrates that increase blood sugar</string>
+    <string name="corn">Corn is good for consumption as a substitute for rice because it has a higher amylose</string>
+    <string name="orange">oranges are good for diabetics because they are rich in fiber and low on the glycemic index</string>
+    <string name="peach">Peaches are low in calories and have 10 different vitamins including vitamins A and C</string>
+    <string name="strawberry">Strawberries are low glycemic so they can help maintain blood sugar levels</string>
+    <string name="watermelon">watermelon has good nutrition but has a glycemic index that can increase blood sugar levels</string>
+
+
 </resources>

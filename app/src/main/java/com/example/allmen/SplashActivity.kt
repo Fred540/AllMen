@@ -13,7 +13,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val home = Intent(this, MainActivity::class.java)
+            val home = Intent(this, LoginActivity::class.java)
             startActivity(home)
             finish()
         }, 3000)

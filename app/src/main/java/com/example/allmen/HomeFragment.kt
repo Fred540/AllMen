@@ -45,11 +45,7 @@ class HomeFragment : Fragment() {
                 startActivityForResult(intent, REQUEST_IMAGE_CAPTURE)
             } catch (e: ActivityNotFoundException) {
                 Toast.makeText(
-                    activity,
-                    "Saya bekerja sendiri dalam membuat aplikasi ini" +
-                    "partner saya tidak ada kabar, tiap diajak mentoring selalu absen" +
-                    "jika bapak/ibu reviewer melihat teks ini berarti ada bug pada aplikasinya" +
-                    "terimakasih",
+                    activity, "Sorry for the error hehe",
                     Toast.LENGTH_SHORT
                 ).show()
             }
@@ -72,13 +68,49 @@ class HomeFragment : Fragment() {
 
             val max = outputFeature0?.floatArray?.let { it1 -> getMax(it1) }
 
-            binding.textView.setText(townList?.get(max!!))
+            val resultname = townList?.get(max!!).toString()
+            binding.textView.setText(resultname)
+
+            configFruitsProperties(resultname)
 
             model?.close()
         })
 
         return view
 
+    }
+
+    private fun configFruitsProperties(resultname: String) {
+        when {
+            resultname == "Apple" -> {
+                binding.textView2.setText(R.string.safetoeat)
+                binding.textView3.setText(R.string.apple)
+            }
+            resultname == "Banana" -> {
+                binding.textView2.setText(R.string.notsafetoeat)
+                binding.textView3.setText(R.string.banana)
+            }
+            resultname == "Corn" -> {
+                binding.textView2.setText(R.string.safetoeat)
+                binding.textView3.setText(R.string.corn)
+            }
+            resultname == "Orange" -> {
+                binding.textView2.setText(R.string.safetoeat)
+                binding.textView3.setText(R.string.orange)
+            }
+            resultname == "Peach" -> {
+                binding.textView2.setText(R.string.safetoeat)
+                binding.textView3.setText(R.string.peach)
+            }
+            resultname == "Strawberry" -> {
+                binding.textView2.setText(R.string.safetoeat)
+                binding.textView3.setText(R.string.strawberry)
+            }
+            resultname == "Watermelon" -> {
+                binding.textView2.setText(R.string.notsafetoeat)
+                binding.textView3.setText(R.string.watermelon)
+            }
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
