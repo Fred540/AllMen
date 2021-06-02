@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">All Men</string>
+
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="icon_login">This Image just for Icon at Login Screen</string>
+    <string name="preview">This Image just for Preview before take a Picture</string>
+    <string name="make_prediction">Analyze</string>
+    <string name="select_image">select image</string>
+    <string name="select_image_and_press_predict_button">take a picture then click analyze</string>
+    <string name="home">Home</string>
+    <string name="article">Article</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maintenance">For the time being, this feature is still under development</string>
+    <string name="frg_history">this image is only a decoration in the fragment history</string>
+
+    <!-- Settings Fragment -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="community">COMMUNITY</string>
+    <string name="supp_us">SUPPORT US</string>
+    <string name="share2friends">Share with friends</string>
+    <string name="general_settings">GENERAL SETTINGS</string>
+    <string name="account">Account Settings</string>
+    <string name="swithc2nightmode">Switch to Night Mode</string>
+    <string name="languageoption">Language options</string>
+    <string name="reminder">Reminder</string>
+    <string name="faq">FAQ</string>
+    <string name="lorem_ipsum">"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "</string>
+    <string name="why">Why?</string>
+
+</resources>
